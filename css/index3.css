@@ -29,7 +29,7 @@ body{font-family: 'hanR';background: url(../img/bg.png) no-repeat center center 
   *zoom:1;
 }
 .baseIcon{
-  display: inline-block;
+  display: block;
   background:url(../img/baseIcon.png) no-repeat;
   overflow: hidden;
 }
@@ -93,6 +93,22 @@ body{font-family: 'hanR';background: url(../img/bg.png) no-repeat center center 
   height: 21px;
   background-position: -93px -99px;
 }
+
+.icon_tips{
+  width: 18px;
+  height: 18px;
+  background-position: 0 -100px;
+}
+.icon_rank_list{
+ width: 22px;
+ height: 22px;
+ background-position: -28px -99px;
+}
+.icon_report_list{
+  width: 22px;
+  height: 22px;
+  background-position: -60px -99px;
+}
 .icon_rank{
   width: 23px;
   height: 25px;
@@ -102,21 +118,6 @@ body{font-family: 'hanR';background: url(../img/bg.png) no-repeat center center 
   width: 23px;
   height: 25px;
   background-position: -169px -66px;
-}
-.icon_tips{
-  width: 18px;
-  height: 18px;
-  background-position: 0 -100px;
-}
-.icon_rank{
- width: 22px;
- height: 22px;
-  background-position: -28px -99px;
-}
-.icon_report{
-  width: 22px;
-  height: 22px;
-  background-position: -60px -99px;
 }
 .icon_quality1,
 .icon_quality2,
@@ -578,6 +579,7 @@ body{font-family: 'hanR';background: url(../img/bg.png) no-repeat center center 
     .sidebar_report,
     .sidebar_rank_person{
       height:414px;
+      margin-top: 20px;
     }
     .focuNews{
       height:341px;
